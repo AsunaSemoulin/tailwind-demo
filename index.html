@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css">
+    <!-- Toutes les îcones sur: https://heroicons.com/ -->
+    <!-- Générateur de grilles: https://cssgrid-generator.netlify.app/ -->
+    <!-- Doc Tailwind: https://tailwindcss.com/docs -->
+    <title>Tailwind Demo</title>
+</head>
+<body>
+    <nav class="flex justify-between text-white bg-black px-10 py-5">
+        <div class="flex">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline sm:hidden cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-1 hidden sm:inline" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M14.243 5.757a6 6 0 10-.986 9.284 1 1 0 111.087 1.678A8 8 0 1118 10a3 3 0 01-4.8 2.401A4 4 0 1114 10a1 1 0 102 0c0-1.537-.586-3.07-1.757-4.243zM12 10a2 2 0 10-4 0 2 2 0 004 0z" clip-rule="evenodd" />
+            </svg>
+            <a href="#" class="mx-2 hidden sm:inline">Home</a>
+            <a href="#" class="mx-2 hidden sm:inline">Contact</a>
+            <a href="#" class="mx-2 hidden sm:inline">Portfolio</a>
+        </div>
+        <div>
+            <a href="#" class="px-2 py-2 hover:bg-white hidden sm:inline">Sign Up</a>
+            <a href="#" class="px-2 py-2 bg-yellow-400 rounded-md hidden sm:inline">Log In</a>
+        </div>
+    </nav>
+
+    <section class="grid grid-cols-1 grid-rows-4 lg:grid-cols-4 lg:grid-rows-1">
+        <img class="object-cover bg-red-500 h-auto" width="100%" src="https://media0.giphy.com/media/FIZ1QC610AAhi/giphy.gif?cid=ecf05e47o8ewo6m56nl50xmdwhnqa10pwnidakyzfcpd3h54&rid=giphy.gif&ct=g">
+        <div class="bg-yellow-200"></div>
+        <div class="flex justify-center items-center bg-red-500 text-white">
+            <p class="text-5xl">C'est ici que tout commence.</p>
+        </div>
+        <div class="bg-green-200"></div>
+    </section>
+</body>
+</html>
